@@ -8,4 +8,5 @@ echo $root_token
 # the root token.
 
 curl --header "X-Vault-Token: $root_token" --request GET \
- $VAULT_ADDR/v1/sys/host-info
+ $VAULT_ADDR/v1/sys/host-info | jq 
+ #jq is used to parse the output json format

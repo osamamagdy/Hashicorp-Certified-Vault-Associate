@@ -1,0 +1,5 @@
+1 - Vault is a single binary for client and server
+2 - Vault can be started in dev mode for local testing
+3 - All Vault communication communication goes through the API
+4 - You can interact with Vault using the CLI, UI, or API
+5 - Use VAULT_ADDR and VAULT_TOKEN with the CLI (the most two important environment variables to remember)
